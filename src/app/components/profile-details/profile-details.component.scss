@@ -1,0 +1,17 @@
+.outerDiv {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+.staticDiv {
+  height: 80%;
+  width: calc(25% - 40px);
+  margin: 20px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  background: white;
+  z-index: 1;
+}

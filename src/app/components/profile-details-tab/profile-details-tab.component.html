@@ -1,0 +1,12 @@
+<div class="mat-elevation-z1 outerDiv">
+  <div class="mat-elevation-z1 profileDetailsDiv">
+    <h2>Profile Detail</h2>
+    <mat-list class="detailsList mat-elevation-z1">
+      <mat-list-item class="detailsListItem" *ngFor="let attr of detailsMap.entries()">
+        <span class="attrTitleSpan"> {{attr[0]}} </span>
+        <strong class="attrValueSpan"> {{attr[1]}} </strong>
+        <mat-icon>edit</mat-icon>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>

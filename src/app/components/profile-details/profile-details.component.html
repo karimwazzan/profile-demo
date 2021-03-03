@@ -1,0 +1,12 @@
+<div class="outerDiv">
+  <div class="staticDiv mat-elevation-z2"></div>
+  <mat-tab-group color="primary" backgroundColor="primary" mat-align-tabs="start">
+    <mat-tab label="Profile Detail">
+      <div *ngIf="userData">
+        <app-profile-details-tab [userData]="userData"></app-profile-details-tab>
+      </div>
+    </mat-tab>
+    <mat-tab label="Profile ID's">Content 2</mat-tab>
+    <mat-tab label="Activity Timeline">Content 3</mat-tab>
+  </mat-tab-group>
+</div>
